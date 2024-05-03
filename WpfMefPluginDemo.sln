@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.34818.151
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PluginContract", "PluginContract\PluginContract.csproj", "{58BB5EDD-631A-49E5-B4B8-B53EDF13CA6E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MEF1", "MEF1", "{27D28872-E6B7-4956-A598-4C261C1F8177}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mef1Plugin", "MEF1\Mef1Plugin\Mef1Plugin.csproj", "{BCBC398B-AD93-44C0-93D2-C5F5BAB6C6CE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mef1App", "MEF1\Mef1App\Mef1App.csproj", "{5529EF5E-46AD-4E9D-B10D-ED0DFE215E23}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BCBC398B-AD93-44C0-93D2-C5F5BAB6C6CE} = {BCBC398B-AD93-44C0-93D2-C5F5BAB6C6CE}
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mef2Plugin", "MEF2\Mef2Plugin\Mef2Plugin.csproj", "{49BDB43B-2503-40D6-B8FB-C99C5FD0E00A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MEF2", "MEF2", "{5A14BCB9-E486-4B4A-8040-F085E71193AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mef2App", "MEF2\Mef2App\Mef2App.csproj", "{6B40645B-34ED-483C-A52C-5049FACAC343}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{58BB5EDD-631A-49E5-B4B8-B53EDF13CA6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58BB5EDD-631A-49E5-B4B8-B53EDF13CA6E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58BB5EDD-631A-49E5-B4B8-B53EDF13CA6E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58BB5EDD-631A-49E5-B4B8-B53EDF13CA6E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCBC398B-AD93-44C0-93D2-C5F5BAB6C6CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCBC398B-AD93-44C0-93D2-C5F5BAB6C6CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCBC398B-AD93-44C0-93D2-C5F5BAB6C6CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCBC398B-AD93-44C0-93D2-C5F5BAB6C6CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5529EF5E-46AD-4E9D-B10D-ED0DFE215E23}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5529EF5E-46AD-4E9D-B10D-ED0DFE215E23}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5529EF5E-46AD-4E9D-B10D-ED0DFE215E23}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5529EF5E-46AD-4E9D-B10D-ED0DFE215E23}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49BDB43B-2503-40D6-B8FB-C99C5FD0E00A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49BDB43B-2503-40D6-B8FB-C99C5FD0E00A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49BDB43B-2503-40D6-B8FB-C99C5FD0E00A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49BDB43B-2503-40D6-B8FB-C99C5FD0E00A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B40645B-34ED-483C-A52C-5049FACAC343}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B40645B-34ED-483C-A52C-5049FACAC343}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B40645B-34ED-483C-A52C-5049FACAC343}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B40645B-34ED-483C-A52C-5049FACAC343}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{BCBC398B-AD93-44C0-93D2-C5F5BAB6C6CE} = {27D28872-E6B7-4956-A598-4C261C1F8177}
+		{5529EF5E-46AD-4E9D-B10D-ED0DFE215E23} = {27D28872-E6B7-4956-A598-4C261C1F8177}
+		{49BDB43B-2503-40D6-B8FB-C99C5FD0E00A} = {5A14BCB9-E486-4B4A-8040-F085E71193AE}
+		{6B40645B-34ED-483C-A52C-5049FACAC343} = {5A14BCB9-E486-4B4A-8040-F085E71193AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6AB2BDF9-931A-49EB-903E-6FA85A2090CC}
+	EndGlobalSection
+EndGlobal
